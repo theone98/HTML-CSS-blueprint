@@ -1,0 +1,112 @@
+html
+{
+    font-family:'Lacquer';
+    background-color:cornsilk;
+}
+.container
+{
+/*
+    height: 1000px;
+    width: 1000px;
+*/
+/*    background-color:aqua;*/
+    font-family: "Shadows+Into+Light";
+    background:linear-gradient(to left,darkblue,navajowhite);
+    box-shadow: 3px 5px 3px gray;
+}
+body
+{
+/*
+    background-image:url(12.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+*/
+    text-align: center;
+    
+}
+/*
+body
+{
+    background-color:floralwhite;
+}
+*/
+        h1
+        {
+
+            color:currentColor;
+/*             background:aqua;*/
+/*          color:crimson;*/
+        }    
+        h2
+        {
+            color:firebrick;
+/*            text-shadow: 2px 2px black;*/
+        
+        }
+/*
+.square
+{
+    width: 100px;
+    height: 100px;
+    background: red;
+    margin:auto;
+}
+*/
+/*
+#circle
+{
+    color:darkred;
+    font-size:40px;
+}*/
+ul li
+{
+    color:red;
+    font-size: 20px;
+}
+ul>li
+{
+    color:blue;
+}
+.borderImg{
+/*    border: 1px dashed black;*/
+/*    border-radius: 10px;*/
+    border-radius: 30%;
+    border: 2px solid gray;
+/*    padding: 5px;*/
+}
+
+img
+{
+    max-width: 100%;
+    height: auto;
+    padding: 2px;
+    margin-bottom:60px;
+/*
+    opacity:0.5;
+    display: block;
+    margin: auto;
+*/
+}
+button
+{
+    color:black;
+    background-color: cornflowerblue;
+    border-radius: 12px;
+/*    border:none;*/
+    font-size:25px;
+    padding: 10px 20px;
+}
+a
+{
+    text-decoration: none;
+    letter-spacing:10px; 
+    word-spacing: 10px;
+    text-transform: uppercase;
+}
+.formatting
+{
+    font-size: 25px;
+    line-height: 2px;
+    color:black;
+}
+
